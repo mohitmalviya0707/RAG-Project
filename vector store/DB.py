@@ -13,7 +13,7 @@ docs = [
 ]
 
 # Embedding model
-embedding_model = OpenAIEmbeddings()
+embedding_model = OpenAIEmbeddings()     
 
 # Vector DB
 vectorstore = Chroma.from_documents(
