@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()    
 
 # Load PDF
-data = PyPDFLoader("document loader/your_file.pdf")
+data = PyPDFLoader("document loader/your_file.pdf")      
 docs = data.load()
 
 # Split into chunks          
