@@ -10,7 +10,7 @@ load_dotenv()
 data = PyPDFLoader("document loader/your_file.pdf")
 docs = data.load()
 
-# Split into chunks
+# Split into chunks   
 splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,
     chunk_overlap=200
