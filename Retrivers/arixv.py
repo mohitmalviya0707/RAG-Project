@@ -10,7 +10,7 @@ retriever = ArxivRetriever(
 docs = retriever.invoke("large language models")
 
 
-for i, doc in enumerate(docs):
+for i, doc in enumerate(docs):   
     print(f"\nResult {i+1}")
     print("Title:", doc.metadata.get("Title")) 
     print("Authors:", doc.metadata.get("Authors"))
