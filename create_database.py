@@ -4,7 +4,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv()    
 
 # Load PDF
 data = PyPDFLoader("document loader/your_file.pdf")
