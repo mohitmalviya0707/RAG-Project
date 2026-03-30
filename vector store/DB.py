@@ -16,7 +16,7 @@ docs = [
 embedding_model = OpenAIEmbeddings()     
 
 # Vector DB
-vectorstore = Chroma.from_documents(
+vectorstore = Chroma.from_documents(     
     documents=docs,
     embedding=embedding_model,
     persist_directory="chroma-db"
