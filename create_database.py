@@ -19,7 +19,7 @@ splitter = RecursiveCharacterTextSplitter(
 chunks = splitter.split_documents(docs)
 
 # Create embeddings
-embedding_model = OpenAIEmbeddings()
+embedding_model = OpenAIEmbeddings()   
 
 # Create vector store
 vectorstore = Chroma.from_documents(
