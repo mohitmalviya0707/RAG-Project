@@ -36,4 +36,4 @@ retrieved_docs = retriever.invoke("explain deep learning")
 
 print("\n📚 Retriever Results:")
 for d in retrieved_docs:
-    print(d.page_content)
+    print(d.page_content)  
