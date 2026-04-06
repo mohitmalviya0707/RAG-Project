@@ -14,7 +14,7 @@ for i, doc in enumerate(docs):
     print(f"\nResult {i+1}")
     print("Title:", doc.metadata.get("Title")) 
     print("Authors:", doc.metadata.get("Authors"))
-    print("Summary:", doc.page_content)  #  first 500 characters
+    print("Summary:", doc.page_content)  #  first 500 characters          123456
 
 
 
